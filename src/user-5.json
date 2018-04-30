@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "26.04" : [
+        {
+          "message": "Hey mate, check it <a href='https://itunes.apple.com/ru/artist/andy-c/111544331' target='_blank'>https://itunes.apple.com/ru/artist/andy-c/111544331</a>",
+          "from_user_id": 99,
+          "time": "21:12"
+        },
+        {
+          "message": "Oh shit, man! It's really amazing dj",
+          "from_user_id": 5,
+          "time": "21:13"
+        }
+      ]
+    }
+  ]
+}

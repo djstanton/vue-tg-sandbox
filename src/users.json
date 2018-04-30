@@ -1,0 +1,52 @@
+{
+  "users": {
+    "1": {
+      "id": 1,
+      "login" : "stanton",
+      "name": "Антон Захаренко",
+      "photo": {
+          "src": "https://sun9-3.userapi.com/c840531/v840531507/3b985/cE-X70rUVpk.jpg"
+      },
+      "lastMessage": "Привет, когда будет решение?",
+      "lastMessageDate" : "11:11"
+    },
+    "2": {
+      "id": 2,
+      "login": "oxozle",
+      "name": "Дмитрий",
+      "lastMessage": "Че каво?",
+      "lastMessageDate" : "28.04",
+      "photo": {
+        "src": "https://pp.userapi.com/c419426/v419426344/a908/2juLRFU_bRw.jpg"
+      }
+    },
+    "3": {
+      "id": 3,
+      "login": "mic",
+      "name": "Михаил Якубко",
+      "lastMessage": "Я готов, но вот есть неплохой разработчик, [1, Антон Захаренко], напиши ему",
+      "lastMessageDate" : "21:16"
+    },
+    "4": {
+      "id": 4,
+      "login": "mic2",
+      "name": "Михаил Дмитриевич Пукки",
+      "lastMessage": "Я думаю, что скоро буду на месте",
+      "lastMessageDate" : "28.04"
+    },
+    "5": {
+      "id": 5,
+      "login": "Andycofficial",
+      "name": "Andy C",
+      "lastMessage": "Oh shit, man",
+      "lastMessageDate" : "26.04"
+    },
+    "99": {
+      "id": 99,
+      "login": "andyone",
+      "name": "Андрей",
+      "lastMessage": "",
+      "hidden": true
+    }
+  }
+}

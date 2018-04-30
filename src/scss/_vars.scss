@@ -1,0 +1,25 @@
+$listWidth : 290px;
+$borderColor: #EAEAEA;
+$navbarHeight: 47px;
+$blue: #2481CC;
+
+$s-min: 20;
+$s-max: 70;
+$l-min: 30;
+$l-max: 90;
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.icon {
+  display: inline-block;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
