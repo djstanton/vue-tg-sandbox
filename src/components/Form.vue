@@ -9,7 +9,7 @@
         </div>
 
         <div class="tg__form-btns">
-            <button class="tg__form-send" @click="submitForm()"></button>
+            <div class="tg__form-send" @click="submitForm()"></div>
             <i class="icon icon-speach" @click="newMessageText = 'Если постараться, будет голосовое'"></i>
         </div>
 
@@ -113,6 +113,7 @@
                 top: 0;
                 bottom: 0;
                 transition: transform .2s ease-in-out;
+                cursor: pointer;
             }
 
             .icon-speach {
