@@ -9,7 +9,7 @@
         </div>
 
         <div class="tg__form-btns">
-            <button class="tg__form-send"></button>
+            <button class="tg__form-send" @click="submitForm()"></button>
             <i class="icon icon-speach" @click="newMessageText = 'Если постараться, будет голосовое'"></i>
         </div>
 
@@ -34,10 +34,16 @@
         },
         methods: {
             submitForm(event) {
-                if(!event.shiftKey){
+                if(event) {
+                    if(!event.shiftKey){
+                        this.newMessageText = this.prepareMessage();
+                        this.newMessageText = '';
+                    }
+                } else {
                     this.newMessageText = this.prepareMessage();
                     this.newMessageText = '';
                 }
+
             },
             prepareMessage() {
                 let newMessageToSend = {
