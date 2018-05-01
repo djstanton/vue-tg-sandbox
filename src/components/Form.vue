@@ -4,7 +4,7 @@
             <i class="icon icon-attach" @click="newMessageText = 'Это похоже на аттач?'"></i>
         </div>
         <div class="tg__form-area-wrap">
-            <textarea v-on:keyup.enter="submitForm" type="text" class="tg__form-input" ref="textarea" @input="textareaResize" placeholder="Напишите сообщение" v-model="newMessageText"></textarea>
+            <textarea autofocus v-on:keyup.enter="submitForm" type="text" class="tg__form-input" ref="textarea" @input="textareaResize" placeholder="Напишите сообщение" v-model="newMessageText"></textarea>
             <div class="tg__textarea-heighthelper" ref="textareahelper" v-html="newMessageText"></div>
         </div>
 
@@ -28,6 +28,12 @@
         computed: {
             isDirty() {
                 return this.newMessageText.length > 0;
+            }
+        },
+        watch: {
+            $route() {
+                this.$refs.textarea.focus();
+
             }
         },
         created() {
