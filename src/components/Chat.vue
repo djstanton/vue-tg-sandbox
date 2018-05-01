@@ -120,6 +120,7 @@ export default {
             color: #FFF;
             font-weight: 500;
             margin-right: 10px;
+            flex: 0 0 auto;
         }
 
         &__user-box {
