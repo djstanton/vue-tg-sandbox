@@ -1,5 +1,4 @@
 <template>
-
     <div class="tg__wrap">
         <Navbar/>
         <div class="tg__content">

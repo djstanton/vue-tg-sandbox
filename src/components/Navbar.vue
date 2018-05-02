@@ -14,19 +14,6 @@
         components: {
             Search,
             Currentuser
-        },
-        data () {
-            return {
-              appData: {}
-            }
-        },
-        created() {
-            this.fetchData();
-        },
-        methods: {
-            fetchData() {
-
-            }
         }
     }
 </script>

@@ -19,7 +19,6 @@
 <script>
     export default {
         name: 'Form',
-        components: {},
         data () {
             return {
                 newMessageText: ''
@@ -35,8 +34,6 @@
                 this.$refs.textarea.focus();
 
             }
-        },
-        created() {
         },
         methods: {
             submitForm(event) {

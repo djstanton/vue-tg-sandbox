@@ -8,12 +8,6 @@
 <script>
 export default {
     name: 'Currentuser',
-    components: {},
-    data () {
-        return {
-          appData: {}
-        }
-    },
     computed: {
         currentUser() {
             return this.$store.state.users[this.$route.params.id];

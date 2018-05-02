@@ -43,19 +43,7 @@ export default {
                 filteredUsersToList = this.users;
             }
 
-
-
             this.$store.commit('filterUsers', filteredUsersToList);
-
-            // return this.users;
-            // if(this.users) {
-            //     let list = this.users.filter(user => {
-            //         debugger;
-            //         return user.name.toLowerCase().includes(this.search.toLowerCase())
-            //     });
-            //
-            //     return list;
-            // }
         }
     },
 }

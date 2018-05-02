@@ -10,12 +10,6 @@
 <script>
 export default {
     name: 'Index',
-    components: {},
-    data () {
-        return {
-          appData: {}
-        }
-    }
 }
 </script>
 <style lang="scss" scoped>

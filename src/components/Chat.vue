@@ -68,9 +68,6 @@ export default {
         setTimeout(this.scrollToBottom, 0)
     },
     methods: {
-        getUserById(id) {
-            return 1;
-        },
         getRandomColor() {
             return (Math.floor(Math.random() * 99) + 1)
         },
